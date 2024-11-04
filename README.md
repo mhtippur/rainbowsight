@@ -1,2 +1,2 @@
-# rainbowsight
+# Rainbowsight
 mhtippur.github.io/rainbowsight
