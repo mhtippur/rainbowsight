@@ -17,6 +17,14 @@
   <img src="thumbnails/exploded_view.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 <br>
+# Illumination Approach 
+<div style="text-align: left;">
+  <video style="width: 100%; height: auto;" controls>
+    <source src="noSound_IlluminationApproach.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div> 
+<br>
 # Rainbow LED Circuitry
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
