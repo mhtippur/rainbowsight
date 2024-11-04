@@ -18,7 +18,7 @@
 </div>
 <br>
 # Illumination Approach
-Here is a simplified ray casting visualization demonstrates how a light ray from two LEDs is refracted and reflected through the different materials in the sensor.  
+The video shows a simplified ray casting visualization demonstrating how a light ray from two LEDs is refracted and reflected through the different materials in the sensor.  
 ![image](https://github.com/user-attachments/assets/d25549dd-929a-48ed-a943-ee92a1896f51)
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
