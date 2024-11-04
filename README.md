@@ -20,7 +20,7 @@
 <br>
 # Illumination Approach
 <div style="text-align: left;">
-  <video width="640" height="320" controls>
+  <video style="width: 100%; height: auto;" controls>
     <source src="noSound_IluminationApproach.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -28,7 +28,7 @@
 <br>
 # Rainbow LED Circuitry
 <div style="text-align: left;">
-  <video width="640" height="320" controls>
+  <video style="width: 100%; height: auto;" controls>
     <source src="raw_sensor_signal.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -36,7 +36,7 @@
 <br>
 # Manufacturing Method
 <div style="text-align: left;">
-  <video width="640" height="320" controls>
+  <video style="width: 100%; height: auto;" controls>
     <source src="fabrication_method.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
