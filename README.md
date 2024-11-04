@@ -4,7 +4,7 @@
 # Abstract
 
 <div style="display: flex; align-items: flex-start;">
-  <div style="width: 75%; margin-right: 20px;">
+  <div style="width: 40%; margin-right: 20px;">
     <img src="thumbnails/rainbowsight.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
