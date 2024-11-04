@@ -2,7 +2,6 @@
 [Paper](files/RainbowSight.pdf) \ [Paper Link](https://ieeexplore.ieee.org/document/10609863) \ [Poster](files/icra24_poster_v2.pdf)\ [ICRA 7-Minute Video Presentation](https://youtu.be/1epQ4mHNrZg)
 
 # Abstract
-
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 40%; margin-right: 20px;">
     <img src="thumbnails/rainbowsight.png" alt="Alt Text" style="width:100%; height:auto;">
