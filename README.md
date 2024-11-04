@@ -2,7 +2,7 @@
 [Paper](files/RainbowSight.pdf) \ [Paper Link](https://ieeexplore.ieee.org/document/10609863) \ [Poster](files/icra24_poster_v2.pdf)
 
 # Abstract
-<div style="float: left; width: 50%;">
+<div style="text-align: left; width: 50%;">
   <img src="thumbnails/rainbowsight.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 
