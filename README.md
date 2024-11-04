@@ -12,6 +12,7 @@ Camera-based tactile sensors can provide high resolution positional and local ge
 # Rainbow LED Circuitry
 
 # Manufacturing Method
+Testing 
 
 # Sensor Calibration and Depth Reconstruction
 
