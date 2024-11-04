@@ -7,7 +7,7 @@ Camera-based tactile sensors can provide high resolution positional and local ge
 
 # Sensor Exploded View
 <div style="text-align: left;">
-  <img src="thumbnails/exploded_sensor_view.png" alt="Alt Text" style="width:100%; height:auto;">
+  <img src="thumbnails/exploded_sensor_view.png" alt="Alt Text" style="width:auto; height:97%;">
 </div>
 # Illumination Approach
 
