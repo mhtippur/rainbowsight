@@ -16,5 +16,5 @@ Camera-based tactile sensors can provide high resolution positional and local ge
 # Sensor Calibration and Depth Reconstruction
 
 # ICRA 2024 Presentation Video
-[![Watch the video](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/video.mp4)
+[![Watch the video](thumbnails/icra_video.png)](ICRA24_3340.mp4)
 
