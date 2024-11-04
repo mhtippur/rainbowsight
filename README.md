@@ -1,5 +1,5 @@
 
-[Paper](files/RainbowSight.pdf) \ [Paper Link](https://ieeexplore.ieee.org/document/10609863) \ [Poster](files/icra24_poster_v2.pdf)
+[Paper](files/RainbowSight.pdf) | [Paper Link](https://ieeexplore.ieee.org/document/10609863) | [Poster](files/icra24_poster_v2.pdf)
 
 # Abstract
 
