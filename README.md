@@ -5,7 +5,7 @@
 
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 40%; margin-right: 20px;">
-    <img src="thumbnails/rainbowsight.png" alt="Alt Text" style="width:110%; height:auto;">
+    <img src="thumbnails/rainbowsight.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
     Camera-based tactile sensors can provide high resolution positional and local geometry information for robotic manipulation. Curved and rounded fingers are often advantageous, but it can be difficult to derive illumination systems that work well within curved geometries. To address this issue, we introduce RainbowSight, a family of curved, compact, camera-based tactile sensors which use addressable RGB LEDs illuminated in a novel rainbow spectrum pattern. In addition to being able to scale the illumination scheme to different sensor sizes and shapes to fit on a variety of end effector configurations, the sensors can be easily manufactured and require minimal optical tuning to obtain high resolution depth reconstructions of an object deforming the sensor’s soft elastomer surface.
