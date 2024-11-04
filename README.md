@@ -45,7 +45,7 @@
 # Sensor Calibration and Depth Reconstruction
 <br>
 # ICRA 2024 Presentation Video
-<div style="text-align: left;">
+<div style="text-align: center;">
   <video style="width: 100%; height: auto;" controls>
     <source src="ICRA24_3340.mp4" type="video/mp4">
     Your browser does not support the video tag.
