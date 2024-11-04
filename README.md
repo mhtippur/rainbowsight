@@ -18,18 +18,18 @@
 </div>
 <br>
 # Illumination Approach
-
+<p>
 The video below shows a simplified ray casting visualization demonstrating how a light ray from two LEDs is refracted and reflected through the different materials in the sensor.
-
+</p>
 ![Ray Casting Visualization](https://github.com/user-attachments/assets/d25549dd-929a-48ed-a943-ee92a1896f51)
 
 <video width="100%" height="auto" controls>
   <source src="noSound_IluminationApproach.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
+<p>
 When an object is pressed into the soft elastomer, the light ray is reflected into the camera, giving us an RGB intensity value at that pixel. Using the color gradient around the circumference of the sensor and the light intensities, a neural network can be used to map the RGB images to surface normals.
- 
+</p> 
 # Rainbow LED Circuitry
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
