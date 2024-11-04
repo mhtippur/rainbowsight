@@ -17,7 +17,14 @@
 <div style="text-align: left;">
   <img src="thumbnails/exploded_sensor_view.png" alt="Alt Text" style="width:auto; height:100%;">
 </div>
+
 # Illumination Approach
+<div style="text-align: left;">
+  <video width="640" height="320" controls>
+    <source src="noSound_IluminationApproach.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div> 
 
 # Rainbow LED Circuitry
 
