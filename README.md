@@ -1,5 +1,5 @@
 
-Paper \ Paper Link \ Poster 
+[Paper](files/RainbowSight.pdf) \ [Paper Link](https://ieeexplore.ieee.org/document/10609863) \ Poster 
 
 # Abstract
 
@@ -7,7 +7,7 @@ Camera-based tactile sensors can provide high resolution positional and local ge
 
 # Sensor Exploded View
 <div style="text-align: left;">
-  <img src="thumbnails/exploded_sensor_view.png" alt="Alt Text" style="width:auto; height:97%;">
+  <img src="thumbnails/exploded_sensor_view.png" alt="Alt Text" style="width:auto; height:100%;">
 </div>
 # Illumination Approach
 
