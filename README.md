@@ -42,6 +42,9 @@
 </div> 
 <br>
 # Sensor Calibration and Depth Reconstruction
+<div style="text-align: left;">
+  <img src="thumbnails/depth_reconstruction_pipeline_website.png" alt="Alt Text" style="width:100%; height:auto;">
+</div>
 We were able to produce depth reconstructions of the sensor's surface. 
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_website.png" alt="Alt Text" style="width:100%; height:auto;">
