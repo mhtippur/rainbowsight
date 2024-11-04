@@ -14,7 +14,7 @@
 <br>
 # Sensor Exploded View
 <div style="text-align: left;">
-  <img src="thumbnails/exploded_view.png" alt="Alt Text" style="width:auto; height:100%;">
+  <img src="thumbnails/exploded_view.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 <br>
 # Illumination Approach
