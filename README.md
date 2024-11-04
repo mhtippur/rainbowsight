@@ -46,10 +46,11 @@
 <br>
 # ICRA 2024 Presentation Video
 <div style="text-align: left;">
-  <video width="640" height="320" controls>
+  <video style="width: 100%; height: auto;" controls>
     <source src="ICRA24_3340.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
+
 
 
