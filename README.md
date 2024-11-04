@@ -12,7 +12,7 @@
   </div>
 </div>
   Additionally, we show the advantages of our new hardware design and improvements in calibration methods for accurate depth map generation when compared to alternative lighting methods commonly implemented in previous camera-based tactile sensors. With these advancements, we make the integration of tactile sensors more accessible to roboticists by allowing them the flexibility to easily customize, fabricate, and calibrate camera-based tactile sensors to best fit the needs of their robotic systems.
-
+<br>
 # Sensor Exploded View
 <div style="text-align: left;">
   <img src="thumbnails/exploded_sensor_view.png" alt="Alt Text" style="width:auto; height:100%;">
