@@ -7,7 +7,7 @@
     <img src="thumbnails/rainbowsight.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
-    **Camera-based tactile sensors** can provide high resolution positional and local geometry information for robotic manipulation. Curved and rounded fingers are often advantageous, but it can be difficult to derive illumination systems that work well within **curved geometries**. To address this issue, we introduce **RainbowSight, a family of curved, compact, camera-based tactile sensors which use addressable RGB LEDs illuminated in a novel rainbow spectrum pattern**. In addition to being able to scale the illumination scheme to different sensor sizes and shapes to fit on a variety of end effector configurations, the sensors can be easily manufactured and require minimal optical tuning to obtain high resolution depth reconstructions of an object deforming the sensor’s soft elastomer surface.
+    <b>Camera-based tactile sensors</b> can provide high resolution positional and local geometry information for robotic manipulation. Curved and rounded fingers are often advantageous, but it can be difficult to derive illumination systems that work well within <b>curved geometries</b>. To address this issue, we introduce <b>RainbowSight, a family of curved, compact, camera-based tactile sensors which use addressable RGB LEDs illuminated in a novel rainbow spectrum pattern</b>. In addition to being able to scale the illumination scheme to different sensor sizes and shapes to fit on a variety of end effector configurations, the sensors can be easily manufactured and require minimal optical tuning to obtain high resolution depth reconstructions of an object deforming the sensor’s soft elastomer surface.
   </div>
 </div>
   Additionally, we show the advantages of our new hardware design and improvements in calibration methods for accurate depth map generation when compared to alternative lighting methods commonly implemented in previous camera-based tactile sensors. With these advancements, we make the integration of tactile sensors more accessible to roboticists by allowing them the flexibility to easily customize, fabricate, and calibrate camera-based tactile sensors to best fit the needs of their robotic systems.
@@ -42,9 +42,9 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
   <div style="width: 60%;">
     <p>We are able to imitate the rainbow-like gradients seen in past Lambertian GelSights due to the Rainbow illumination strategy.</p>
 
-    <p>This is done by packing as many RGB LEDs as we can fit onto the PCB. A specific **hue, value, and saturation** is assigned to each of the discrete LEDs, and when there are enough LEDs, we start to mimic this continuous rainbow color. Depending on the shapes of boards, we use different sizes of LEDs in the design, but generally, **21 – 28 LEDs can fit**.</p>
+    <p>This is done by packing as many RGB LEDs as we can fit onto the PCB. A specific <b>hue, value, and saturation</b> is assigned to each of the discrete LEDs, and when there are enough LEDs, we start to mimic this continuous rainbow color. Depending on the shapes of boards, we use different sizes of LEDs in the design, but generally, <b>21 – 28 LEDs can fit</b>.</p>
 
-    <p>Additionally, we designed a **customized LED controller board** that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.</p>
+    <p>Additionally, we designed a <b>customized LED controller board</b> that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.</p>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ Different shapes and sizes of sensors are now possible without the need to re-de
     <img src="thumbnails/small_sensor.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
-    <p> Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors. Unlike with GelSight360, we were even able to shrink the size of the sensors down to **~20mm in diameter (about the diameter of a human index finger)** and still implement the rainbow illumination.</p>
+    <p> Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors. Unlike with GelSight360, we were even able to shrink the size of the sensors down to <b>~20mm in diameter (about the diameter of a human index finger)</b> and still implement the rainbow illumination.</p>
   </div>
 </div>
 
