@@ -1,7 +1,7 @@
 
 [Paper](files/RainbowSight.pdf) \ [Paper Link](https://ieeexplore.ieee.org/document/10609863) \ [Poster](files/icra24_poster_v2.pdf) \ [ICRA 7-Minute Video Presentation](https://youtu.be/1epQ4mHNrZg)
 
-# Abstract
+## Abstract
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 40%; margin-right: 20px;">
     <img src="thumbnails/rainbowsight.png" alt="Alt Text" style="width:100%; height:auto;">
@@ -12,13 +12,19 @@
 </div>
   Additionally, we show the advantages of our new hardware design and improvements in calibration methods for accurate depth map generation when compared to alternative lighting methods commonly implemented in previous camera-based tactile sensors. With these advancements, we make the integration of tactile sensors more accessible to roboticists by allowing them the flexibility to easily customize, fabricate, and calibrate camera-based tactile sensors to best fit the needs of their robotic systems.
 <br>
-# Sensor Exploded View
+
+## Sensor Exploded View
 <div style="text-align: left;">
   <img src="thumbnails/exploded_view.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 <br>
-## Illumination Approach 
-A simplified ray casting visualization demonstrates how a light ray from two LEDs is refracted and reflected through the difference materials in the sensor. 
+
+## Rainbow Illumination Approach 
+We introduce a novel rainbow illumination scheme that uses a semi-specular, or shiny, coating to produce the graual, rainbow color gradient needed for using photometric stereo techniques. This illumination method allows us to further simplify our fabrication process, without sacrificing the sensor's ability to provide depth reconstructions of the surface deformations. 
+
+The rainbow illumination approach allows us to broaden the shape and size customizability (introduced by GelSight360) to now build a wider variety of sensors without the need for precise illumination or color tuning. 
+
+This simplified ray casting visualization demonstrates how a light ray from two LEDs is refracted and reflected through the difference materials in the sensor. 
  
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
@@ -36,6 +42,7 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
   </video>
 </div> 
 <br>
+
 # Manufacturing Method
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
@@ -44,6 +51,7 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
   </video>
 </div> 
 <br>
+
 # Sensor Calibration and Depth Reconstruction
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_pipeline_website.png" alt="Alt Text" style="width:100%; height:auto;">
