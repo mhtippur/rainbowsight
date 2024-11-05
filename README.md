@@ -68,9 +68,8 @@ To reconstruct the surface deformation, the RGB values and pixel coordinates of 
 Some examples o
 <figure style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_website.png" alt="Alt Text" style="width:100%; height:auto;">
-  <figcaption style="text-align: center; margin-top: 8px;">Tactile signals collected when different objects are pressed at various locations on the
-omnidirectional cylinder with hemisphere top sensor shape. **Top Row**: Objects pressed into the sensor surface. Middle Row: Tactile difference images of
-the contact regions. Bottom Row: Estimated depth map of the imprinted object in the sensor skin.</figcaption>
+  <figcaption style="text-align: left; margin-top: 8px;">Tactile signals collected when different objects are pressed at various locations on the
+omnidirectional cylinder with hemisphere top sensor shape. <b>Top Row</b>: Objects pressed into the sensor surface. <b>Middle Row</b>: Tactile difference images ofthe contact regions. <b>Bottom Row</b>: Estimated depth map of the imprinted object in the sensor skin.</figcaption>
 </figure>
 <br>
 
