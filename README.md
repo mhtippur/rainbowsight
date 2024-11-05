@@ -19,7 +19,6 @@
 <div style="text-align: left;">
   <img src="thumbnails/exploded_view.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
-<br>
 
 ### Rainbow Illumination ###
 We introduce a novel rainbow illumination scheme that uses a semi-specular, or shiny, coating to produce the graual, rainbow color gradient needed for using photometric stereo techniques. This illumination method allows us to further simplify our fabrication process, without sacrificing the sensor's ability to provide depth reconstructions of the surface deformations. 
@@ -47,7 +46,9 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
     This is done by packing as many RGB LEDs as we can fit onto the PCB. A specific hue, value, and saturation is assigned to each of the discrete LEDs, and when there are enough LEDs, we start to mimic this continuous rainbow color. Depending on the shapes of boards, we use different sizes of LEDs in the design, but generally, 21 – 28 LEDs can fit.
 
     Additionally, we designed a customized LED controller board that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.
+  
   </div>
+</div>
 
 
 ### Example Raw Sensor Outputs ###
