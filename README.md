@@ -67,6 +67,7 @@ Both the rigid epoxy shell and silicone elastomer are produced in-house. The pro
     Your browser does not support the video tag.
   </video>
 </div> 
+<br>
 
 # Alternate Geometries #
 
