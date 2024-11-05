@@ -17,7 +17,7 @@
   <img src="thumbnails/exploded_view.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 <br>
-# Illumination Approach 
+## Illumination Approach 
 A simplified ray casting visualization demonstrates how a light ray from two LEDs is refracted and reflected through the difference materials in the sensor. 
  
 <div style="text-align: left;">
@@ -28,7 +28,7 @@ A simplified ray casting visualization demonstrates how a light ray from two LED
 </div> 
 
 When an object is pressed into the soft elastomer, the light ray is reflected into the camera, giving us an RGB intensity value at that pixel. Using the color gradient around the circumference of the sensor and the light intensities, a neural network can be used to map the RGB images to surface normals. 
-# Rainbow LED Circuitry
+## Rainbow LED Circuitry
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
     <source src="raw_sensor_signal.mp4" type="video/mp4">
