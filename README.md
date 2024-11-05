@@ -80,7 +80,7 @@ Different shapes and sizes of sensors are now possible without the need to re-de
 
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 40%; margin-right: 20px;">
-    <img src="thumbnails/led_circuitry_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
+    <img src="thumbnails/small_sensor.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
     <p> Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors. Unlike with GelSight360, we were even able to shrink the size of the sensors down to ~20mm in diameter (about the diameter of a human index finger) and still implement the rainbow illumination.</p>
