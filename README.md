@@ -22,7 +22,7 @@
 ### Rainbow Illumination ###
 We introduce a **novel rainbow illumination scheme** that uses a semi-specular, or shiny, coating to produce the **gradual, rainbow color gradient** needed for using photometric stereo techniques. This illumination method allows us to further **simplify our fabrication process**, without sacrificing the sensor's ability to **provide depth reconstructions** of the surface deformations. 
 
-The rainbow illumination approach allows us to **broaden the shape and size customizability* (introduced by GelSight360) to now build a wider variety of sensors without the need for precise illumination or color tuning. 
+The rainbow illumination approach allows us to **broaden the shape and size customizability** (introduced by GelSight360) to now build a wider variety of sensors without the need for precise illumination or color tuning. 
  
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
@@ -42,9 +42,9 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
   <div style="width: 60%;">
     <p>We are able to imitate the rainbow-like gradients seen in past Lambertian GelSights due to the Rainbow illumination strategy.</p>
 
-    <p>This is done by packing as many RGB LEDs as we can fit onto the PCB. A specific hue, value, and saturation is assigned to each of the discrete LEDs, and when there are enough LEDs, we start to mimic this continuous rainbow color. Depending on the shapes of boards, we use different sizes of LEDs in the design, but generally, 21 – 28 LEDs can fit.</p>
+    <p>This is done by packing as many RGB LEDs as we can fit onto the PCB. A specific **hue, value, and saturation** is assigned to each of the discrete LEDs, and when there are enough LEDs, we start to mimic this continuous rainbow color. Depending on the shapes of boards, we use different sizes of LEDs in the design, but generally, **21 – 28 LEDs can fit**.</p>
 
-    <p>Additionally, we designed a customized LED controller board that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.</p>
+    <p>Additionally, we designed a **customized LED controller board** that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.</p>
   </div>
 </div>
 
@@ -83,7 +83,7 @@ Different shapes and sizes of sensors are now possible without the need to re-de
     <img src="thumbnails/small_sensor.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
-    <p> Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors. Unlike with GelSight360, we were even able to shrink the size of the sensors down to ~20mm in diameter (about the diameter of a human index finger) and still implement the rainbow illumination.</p>
+    <p> Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors. Unlike with GelSight360, we were even able to shrink the size of the sensors down to **~20mm in diameter (about the diameter of a human index finger)** and still implement the rainbow illumination.</p>
   </div>
 </div>
 
@@ -91,7 +91,7 @@ Different shapes and sizes of sensors are now possible without the need to re-de
 ### Method ###
 The sensor is first calibrated by using a CNC to collect about 5000 points across the sensor's surface. Using the intrinsic and extrinsic camera matrices, we simulate the normal maps and train an MLP network to produce the surface normals of the sensor surface. 
 
-To reconstruct the surface deformation, the RGB values and pixel coordinates of the contact area are fed into the network, producing the surface gradients. These gradients are then integrated using the Bilateral Normal Integration method to produce a depth map and point cloud. 
+To reconstruct the surface deformation, the **RGB values and pixel coordinates** of the contact area are fed into the network, producing the surface gradients. These gradients are then integrated using the Bilateral Normal Integration method to produce a depth map and point cloud. 
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_pipeline_website.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
