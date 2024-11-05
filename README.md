@@ -71,6 +71,14 @@ Both the rigid epoxy shell and silicone elastomer are produced in-house. The pro
 # Alternate Geometries #
 
 
+Different shapes and sizes of sensors are now possible without the need to re-design optical schemes fand fine-tune LED colors for curved configurations. Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors.
+
+<div style="text-align: left;">
+  <img src="thumbnails/alternate_geometries_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
+</div>
+
+
+
 # Depth Reconstruction #
 ### Method ###
 The sensor is first calibrated by using a CNC to collect about 5000 points across the sensor's surface. Using the intrinsic and extrinsic camera matrices, we simulate the normal maps and train an MLP network to produce the surface normals of the sensor surface. 
