@@ -59,8 +59,6 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
 </div> 
 <br>
 
-### Alternate Geometries ###
-
 ### Manufacturing Process ###
 Both the rigid epoxy shell and silicone elastomer are produced in-house. The process takes ~2 days, including curing time. 
 <div style="text-align: left;">
@@ -69,7 +67,9 @@ Both the rigid epoxy shell and silicone elastomer are produced in-house. The pro
     Your browser does not support the video tag.
   </video>
 </div> 
-<br>
+
+# Alternate Geometries #
+
 
 # Depth Reconstruction #
 ### Method ###
