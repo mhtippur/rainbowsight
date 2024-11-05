@@ -13,8 +13,6 @@
   Additionally, we show the advantages of our new hardware design and improvements in calibration methods for accurate depth map generation when compared to alternative lighting methods commonly implemented in previous camera-based tactile sensors. With these advancements, we make the integration of tactile sensors more accessible to roboticists by allowing them the flexibility to easily customize, fabricate, and calibrate camera-based tactile sensors to best fit the needs of their robotic systems.
 <br>
 
-
-
 # Rainbow Illumination Approach #
 
 ## Sensor Exploded View ##
@@ -47,7 +45,7 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
 </div> 
 <br>
 
-# Manufacturing Method
+## Manufacturing Method ##
 Both the rigid epoxy shell and silicone elastomer are produced in-house. Including curing time, the process takes about 2 days. 
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
@@ -57,13 +55,22 @@ Both the rigid epoxy shell and silicone elastomer are produced in-house. Includi
 </div> 
 <br>
 
-# Sensor Calibration and Depth Reconstruction
+# Depth Reconstruction #
+## Method ##
 The sensor is first calibrated by using a CNC to collect about 5000 points across the sensor's surface. Using the intrinsic and extrinsic camera matrices, we simulate the normal maps and train an MLP network to produce the surface normals of the sensor surface. 
+
+To reconstruct the surface deformation, the RGB values and pixel coordinates of the contact area are fed into the network, producing the surface gradients. These gradients are then integrated using the Bilateral Normal Integration method to produce a depth map and point cloud. 
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_pipeline_website.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
-To reconstruct the surface deformation, the RGB values and pixel coordinates of the contact area are fed into the network, producing the surface gradients. These gradients are then integrated using the Bilateral Normal Integration method to produce a depth map and point cloud.  
-<div style="text-align: left;">
+
+## Results ## 
+Some examples o
+<figure style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_website.png" alt="Alt Text" style="width:100%; height:auto;">
-</div>
+  <figcaption style="text-align: center; margin-top: 8px;">Tactile signals collected when different objects are pressed at various locations on the
+omnidirectional cylinder with hemisphere top sensor shape. **Top Row**: Objects pressed into the sensor surface. Middle Row: Tactile difference images of
+the contact regions. Bottom Row: Estimated depth map of the imprinted object in the sensor skin.</figcaption>
+</figure>
 <br>
+
