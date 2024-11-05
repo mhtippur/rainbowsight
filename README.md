@@ -20,7 +20,7 @@
 # Illumination Approach 
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
-    <source src="noSound_IlluminationApproach.mp4" type="video/mp4">
+    <source src="noSound_IluminationApproach.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div> 
