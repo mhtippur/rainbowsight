@@ -11,7 +11,6 @@
   </div>
 </div>
   Additionally, we show the advantages of our new hardware design and improvements in calibration methods for accurate depth map generation when compared to alternative lighting methods commonly implemented in previous camera-based tactile sensors. With these advancements, we make the integration of tactile sensors more accessible to roboticists by allowing them the flexibility to easily customize, fabricate, and calibrate camera-based tactile sensors to best fit the needs of their robotic systems.
-<br>
 
 # Our Approach #
 
@@ -41,14 +40,14 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
     <img src="thumbnails/led_circuitry_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
-    We are able to imitate the rainbow-like gradients seen in past Lambertian GelSights due to the Rainbow illumination strategy.
+    <p>We are able to imitate the rainbow-like gradients seen in past Lambertian GelSights due to the Rainbow illumination strategy.</p>
 
-    This is done by packing as many RGB LEDs as we can fit onto the PCB. A specific hue, value, and saturation is assigned to each of the discrete LEDs, and when there are enough LEDs, we start to mimic this continuous rainbow color. Depending on the shapes of boards, we use different sizes of LEDs in the design, but generally, 21 – 28 LEDs can fit.
+    <p>This is done by packing as many RGB LEDs as we can fit onto the PCB. A specific hue, value, and saturation is assigned to each of the discrete LEDs, and when there are enough LEDs, we start to mimic this continuous rainbow color. Depending on the shapes of boards, we use different sizes of LEDs in the design, but generally, 21 – 28 LEDs can fit.</p>
 
-    Additionally, we designed a customized LED controller board that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.
-  
+    <p>Additionally, we designed a customized LED controller board that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.</p>
   </div>
 </div>
+
 
 
 ### Example Raw Sensor Outputs ###
@@ -85,6 +84,5 @@ To reconstruct the surface deformation, the RGB values and pixel coordinates of 
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_website.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
-<br>
 Example tactile signals collected when different objects are pressed at different locations of the sensor surface. ***Top Row:*** Objects pressed into the sensor surface. ***Middle Row:*** Tactile difference images of the contact regions. ***Bottom Row:*** Estimated depth map of the imprinted object in the sensor skin. 
 
