@@ -18,13 +18,16 @@
 </div>
 <br>
 # Illumination Approach 
+A simplified ray casting visualization demonstrates how a light ray from two LEDs is refracted and reflected through the difference materials in the sensor. 
+ 
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
     <source src="noSound_IluminationApproach.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div> 
-<br>
+
+When an object is pressed into the soft elastomer.
 # Rainbow LED Circuitry
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
