@@ -13,7 +13,7 @@
   Additionally, we show the advantages of our new hardware design and improvements in calibration methods for accurate depth map generation when compared to alternative lighting methods commonly implemented in previous camera-based tactile sensors. With these advancements, we make the integration of tactile sensors more accessible to roboticists by allowing them the flexibility to easily customize, fabricate, and calibrate camera-based tactile sensors to best fit the needs of their robotic systems.
 <br>
 
-# Rainbow Illumination Approach #
+# Our Approach #
 
 ## Sensor Exploded View ##
 <div style="text-align: left;">
@@ -21,11 +21,10 @@
 </div>
 <br>
 
+## Rainbow Illumination ##
 We introduce a novel rainbow illumination scheme that uses a semi-specular, or shiny, coating to produce the graual, rainbow color gradient needed for using photometric stereo techniques. This illumination method allows us to further simplify our fabrication process, without sacrificing the sensor's ability to provide depth reconstructions of the surface deformations. 
 
 The rainbow illumination approach allows us to broaden the shape and size customizability (introduced by GelSight360) to now build a wider variety of sensors without the need for precise illumination or color tuning. 
-
-This simplified ray casting visualization demonstrates how a light ray from two LEDs is refracted and reflected through the difference materials in the sensor. 
  
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
@@ -33,6 +32,7 @@ This simplified ray casting visualization demonstrates how a light ray from two 
     Your browser does not support the video tag.
   </video>
 </div> 
+This simplified ray casting visualization demonstrates how a light ray from two LEDs is refracted and reflected through the difference materials in the sensor. 
 
 When an object is pressed into the soft elastomer, the light ray is reflected into the camera, giving us an RGB intensity value at that pixel. Using the color gradient around the circumference of the sensor and the light intensities, a neural network can be used to map the RGB images to surface normals. 
 
@@ -46,7 +46,7 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
 <br>
 
 ## Manufacturing Method ##
-Both the rigid epoxy shell and silicone elastomer are produced in-house. Including curing time, the process takes about 2 days. 
+Both the rigid epoxy shell and silicone elastomer are produced in-house. The process takes ~2 days, including curing time. 
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
     <source src="fabrication_method.mp4" type="video/mp4">
@@ -65,11 +65,9 @@ To reconstruct the surface deformation, the RGB values and pixel coordinates of 
 </div>
 
 ## Results ## 
-Some examples o
-<figure style="text-align: left;">
+<div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_website.png" alt="Alt Text" style="width:100%; height:auto;">
-  <figcaption style="text-align: left; margin-top: 8px;">Tactile signals collected when different objects are pressed at various locations on the
-omnidirectional cylinder with hemisphere top sensor shape. <b>Top Row</b>: Objects pressed into the sensor surface. <b>Middle Row</b>: Tactile difference images ofthe contact regions. <b>Bottom Row</b>: Estimated depth map of the imprinted object in the sensor skin.</figcaption>
-</figure>
+</div>
 <br>
+Example tactile signals collected when different objects are pressed at different locations of the sensor surface. **Top Row:** Objects pressed into the sensor surface. **Middle Row:** Tactile difference images of the contact regions. **Bottom Row:** Estimated depth map of the imprinted object in the sensor skin. 
 
