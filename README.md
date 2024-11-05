@@ -7,7 +7,7 @@
     <img src="thumbnails/rainbowsight.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
-    Camera-based tactile sensors can provide high resolution positional and local geometry information for robotic manipulation. Curved and rounded fingers are often advantageous, but it can be difficult to derive illumination systems that work well within curved geometries. To address this issue, we introduce RainbowSight, a family of curved, compact, camera-based tactile sensors which use addressable RGB LEDs illuminated in a novel rainbow spectrum pattern. In addition to being able to scale the illumination scheme to different sensor sizes and shapes to fit on a variety of end effector configurations, the sensors can be easily manufactured and require minimal optical tuning to obtain high resolution depth reconstructions of an object deforming the sensor’s soft elastomer surface.
+    **Camera-based tactile sensors** can provide high resolution positional and local geometry information for robotic manipulation. Curved and rounded fingers are often advantageous, but it can be difficult to derive illumination systems that work well within **curved geometries**. To address this issue, we introduce **RainbowSight, a family of curved, compact, camera-based tactile sensors which use addressable RGB LEDs illuminated in a novel rainbow spectrum pattern**. In addition to being able to scale the illumination scheme to different sensor sizes and shapes to fit on a variety of end effector configurations, the sensors can be easily manufactured and require minimal optical tuning to obtain high resolution depth reconstructions of an object deforming the sensor’s soft elastomer surface.
   </div>
 </div>
   Additionally, we show the advantages of our new hardware design and improvements in calibration methods for accurate depth map generation when compared to alternative lighting methods commonly implemented in previous camera-based tactile sensors. With these advancements, we make the integration of tactile sensors more accessible to roboticists by allowing them the flexibility to easily customize, fabricate, and calibrate camera-based tactile sensors to best fit the needs of their robotic systems.
@@ -20,9 +20,9 @@
 </div>
 
 ### Rainbow Illumination ###
-We introduce a novel rainbow illumination scheme that uses a semi-specular, or shiny, coating to produce the graual, rainbow color gradient needed for using photometric stereo techniques. This illumination method allows us to further simplify our fabrication process, without sacrificing the sensor's ability to provide depth reconstructions of the surface deformations. 
+We introduce a **novel rainbow illumination scheme** that uses a semi-specular, or shiny, coating to produce the **gradual, rainbow color gradient** needed for using photometric stereo techniques. This illumination method allows us to further **simplify our fabrication process**, without sacrificing the sensor's ability to **provide depth reconstructions** of the surface deformations. 
 
-The rainbow illumination approach allows us to broaden the shape and size customizability (introduced by GelSight360) to now build a wider variety of sensors without the need for precise illumination or color tuning. 
+The rainbow illumination approach allows us to **broaden the shape and size customizability* (introduced by GelSight360) to now build a wider variety of sensors without the need for precise illumination or color tuning. 
  
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
@@ -69,7 +69,7 @@ Both the rigid epoxy shell and silicone elastomer are produced in-house. The pro
 </div> 
 
 # Alternate Geometries #
-Different shapes and sizes of sensors are now possible without the need to re-design optical schemes and fine-tune LED colors for curved configurations. The RGB LEDs can just be arranged on a PCB around the circumference of the sensor footprint, as shown below. 
+
 <div style="text-align: left;">
   <img src="thumbnails/different_pcbs.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
@@ -77,7 +77,7 @@ Different shapes and sizes of sensors are now possible without the need to re-de
   <img src="thumbnails/alternate_geometries_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 
-
+Different shapes and sizes of sensors are now possible without the need to re-design optical schemes and fine-tune LED colors for curved configurations. The RGB LEDs can just be arranged on a PCB around the circumference of the sensor footprint, as shown below. 
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 40%; margin-right: 20px;">
     <img src="thumbnails/small_sensor.png" alt="Alt Text" style="width:100%; height:auto;">
