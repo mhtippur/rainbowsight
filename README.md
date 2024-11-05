@@ -47,8 +47,7 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
     <p>Additionally, we designed a <b>customized LED controller board</b> that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.</p>
   </div>
 </div>
-
-
+<br>
 
 ### Example Raw Sensor Outputs ###
 <div style="text-align: left;">
@@ -58,7 +57,6 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
   </video>
 </div> 
 <br>
-
 ### Manufacturing Process ###
 Both the rigid epoxy shell and silicone elastomer are produced in-house. The process takes ~2 days, including curing time. 
 <div style="text-align: left;">
@@ -78,13 +76,13 @@ Both the rigid epoxy shell and silicone elastomer are produced in-house. The pro
   <img src="thumbnails/alternate_geometries_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 
-Different shapes and sizes of sensors are now possible without the need to re-design optical schemes and fine-tune LED colors for curved configurations. The RGB LEDs can just be arranged on a PCB around the circumference of the sensor footprint, as shown below. 
+Different shapes and sizes of sensors are now possible without the need to re-design optical schemes and fine-tune LED colors for curved configurations. The RGB LEDs can just be arranged on a PCB around the circumference of the sensor footprint, as shown above. 
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 40%; margin-right: 20px;">
     <img src="thumbnails/small_sensor.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
-    <p> Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors. Unlike with GelSight360, we were even able to shrink the size of the sensors down to <b>~20mm in diameter (about the diameter of a human index finger)</b> and still implement the rainbow illumination.</p>
+    <p> Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors. Unlike with GelSight360, we were even able to shrink the size of the sensors down to <strong>~20mm in diameter (about the diameter of a human index finger)</strong> and still implement the rainbow illumination.</p>
   </div>
 </div>
 
