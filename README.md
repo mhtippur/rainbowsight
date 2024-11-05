@@ -45,7 +45,7 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
 </div> 
 <br>
 
-## Manufacturing Method ##
+### Manufacturing Process ###
 Both the rigid epoxy shell and silicone elastomer are produced in-house. The process takes ~2 days, including curing time. 
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
@@ -56,7 +56,7 @@ Both the rigid epoxy shell and silicone elastomer are produced in-house. The pro
 <br>
 
 # Depth Reconstruction #
-## Method ##
+### Method ###
 The sensor is first calibrated by using a CNC to collect about 5000 points across the sensor's surface. Using the intrinsic and extrinsic camera matrices, we simulate the normal maps and train an MLP network to produce the surface normals of the sensor surface. 
 
 To reconstruct the surface deformation, the RGB values and pixel coordinates of the contact area are fed into the network, producing the surface gradients. These gradients are then integrated using the Bilateral Normal Integration method to produce a depth map and point cloud. 
@@ -64,10 +64,10 @@ To reconstruct the surface deformation, the RGB values and pixel coordinates of 
   <img src="thumbnails/depth_reconstruction_pipeline_website.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 
-## Results ## 
+### Results ### 
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_website.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 <br>
-Example tactile signals collected when different objects are pressed at different locations of the sensor surface. **Top Row:** Objects pressed into the sensor surface. **Middle Row:** Tactile difference images of the contact regions. **Bottom Row:** Estimated depth map of the imprinted object in the sensor skin. 
+Example tactile signals collected when different objects are pressed at different locations of the sensor surface. ***Top Row:*** Objects pressed into the sensor surface. ***Middle Row:*** Tactile difference images of the contact regions. ***Bottom Row:*** Estimated depth map of the imprinted object in the sensor skin. 
 
