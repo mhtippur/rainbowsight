@@ -90,7 +90,7 @@ Different shapes and sizes of sensors are now possible without the need to re-de
 ### Method ###
 The sensor is first calibrated using a CNC to collect about 5000 points across the sensor's surface. Using the intrinsic and extrinsic camera matrices, we simulate the normal maps and train an MLP network to produce the surface normals of the sensor surface. 
 
-To reconstruct the surface deformation, the **RGB values and pixel coordinates** of the contact area are fed into the network, producing the surface gradients. These gradients are then integrated using the Bilateral Normal Integration method to produce a depth map and point cloud. 
+To reconstruct the surface deformation, the **RGB values and pixel coordinates** of the contact area are fed into the network, producing the surface gradients. These gradients are then integrated using the [Bilateral Normal Integration](https://github.com/xucao-42/bilateral_normal_integration) method to produce a depth map and point cloud. 
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_pipeline_website.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
