@@ -69,15 +69,23 @@ Both the rigid epoxy shell and silicone elastomer are produced in-house. The pro
 </div> 
 
 # Alternate Geometries #
-
-
-Different shapes and sizes of sensors are now possible without the need to re-design optical schemes fand fine-tune LED colors for curved configurations. Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors.
-
+Different shapes and sizes of sensors are now possible without the need to re-design optical schemes and fine-tune LED colors for curved configurations. The RGB LEDs can just be arranged on a PCB around the circumference of the sensor footprint, as shown below. 
+<div style="text-align: left;">
+  <img src="thumbnails/different_pcbs.png" alt="Alt Text" style="width:100%; height:auto;">
+</div>
 <div style="text-align: left;">
   <img src="thumbnails/alternate_geometries_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 
 
+<div style="display: flex; align-items: flex-start;">
+  <div style="width: 40%; margin-right: 20px;">
+    <img src="thumbnails/led_circuitry_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
+  </div>
+  <div style="width: 60%;">
+    <p> Some of the alternate geometries implemented were designed to mimic the dimensions of Syntouch's BioTac sensors. Unlike with GelSight360, we were even able to shrink the size of the sensors down to ~20mm in diameter (about the diameter of a human index finger) and still implement the rainbow illumination.</p>
+  </div>
+</div>
 
 # Depth Reconstruction #
 ### Method ###
