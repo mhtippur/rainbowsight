@@ -37,6 +37,20 @@ This simplified ray casting visualization demonstrates how a light ray from two 
 When an object is pressed into the soft elastomer, the light ray is reflected into the camera, giving us an RGB intensity value at that pixel. Using the color gradient around the circumference of the sensor and the light intensities, a neural network can be used to map the RGB images to surface normals. 
 
 ### Rainbow LED Circuitry ###
+<div style="display: flex; align-items: flex-start;">
+  <div style="width: 40%; margin-right: 20px;">
+    <img src="tthumbnails/led_circuitry_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
+  </div>
+  <div style="width: 60%;">
+    We are able to imitate the rainbow-like gradients seen in past Lambertian GelSights due to the Rainbow illumination strategy.
+
+    This is done by packing as many RGB LEDs as we can fit onto the PCB. A specific hue, value, and saturation is assigned to each of the discrete LEDs, and when there are enough LEDs, we start to mimic this continuous rainbow color. Depending on the shapes of boards, we use different sizes of LEDs in the design, but generally, 21 – 28 LEDs can fit.
+
+    Additionally, we designed a customized LED controller board that houses an Adafruit Trinket 5V Pro. It is small enough to fit at the base of an end effector or in the palm of a robotic hand and ensures the signal integrity for the sensors. The Trinket board has the current capacity to run up to 5 LED boards off from an external power supply, which is important when outfitting multiple sensors on a robotic hand.
+  </div>
+
+
+### Example Raw Sensor Outputs ###
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
     <source src="raw_sensor_signal.mp4" type="video/mp4">
