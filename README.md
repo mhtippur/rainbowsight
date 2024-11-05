@@ -19,7 +19,8 @@
 </div>
 <br>
 
-## Rainbow Illumination Approach 
+## Rainbow Illumination Approach ##
+# Trial Size#
 We introduce a novel rainbow illumination scheme that uses a semi-specular, or shiny, coating to produce the graual, rainbow color gradient needed for using photometric stereo techniques. This illumination method allows us to further simplify our fabrication process, without sacrificing the sensor's ability to provide depth reconstructions of the surface deformations. 
 
 The rainbow illumination approach allows us to broaden the shape and size customizability (introduced by GelSight360) to now build a wider variety of sensors without the need for precise illumination or color tuning. 
@@ -44,6 +45,7 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
 <br>
 
 # Manufacturing Method
+Both the rigid epoxy shell and silicone elastomer are produced in-house. Including curing time, the process takes about 2 days. 
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
     <source src="fabrication_method.mp4" type="video/mp4">
@@ -56,6 +58,8 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_pipeline_website.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
+The sensor is first calibrated by using a CNC to collect about 5000 points across the sensor's surface. Using the intrinsic and extrinsic camera matrices, we simulate the normal maps and train an MLP network to produce the surface normals of the sensor surface. 
+
 We were able to produce depth reconstructions of the sensor's surface. 
 <div style="text-align: left;">
   <img src="thumbnails/depth_reconstruction_website.png" alt="Alt Text" style="width:100%; height:auto;">
