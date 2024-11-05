@@ -15,13 +15,13 @@
 
 # Our Approach #
 
-## Sensor Exploded View ##
+### Sensor Exploded View ###
 <div style="text-align: left;">
   <img src="thumbnails/exploded_view.png" alt="Alt Text" style="width:100%; height:auto;">
 </div>
 <br>
 
-## Rainbow Illumination ##
+### Rainbow Illumination ###
 We introduce a novel rainbow illumination scheme that uses a semi-specular, or shiny, coating to produce the graual, rainbow color gradient needed for using photometric stereo techniques. This illumination method allows us to further simplify our fabrication process, without sacrificing the sensor's ability to provide depth reconstructions of the surface deformations. 
 
 The rainbow illumination approach allows us to broaden the shape and size customizability (introduced by GelSight360) to now build a wider variety of sensors without the need for precise illumination or color tuning. 
@@ -36,7 +36,7 @@ This simplified ray casting visualization demonstrates how a light ray from two 
 
 When an object is pressed into the soft elastomer, the light ray is reflected into the camera, giving us an RGB intensity value at that pixel. Using the color gradient around the circumference of the sensor and the light intensities, a neural network can be used to map the RGB images to surface normals. 
 
-## Rainbow LED Circuitry ##
+### Rainbow LED Circuitry ###
 <div style="text-align: left;">
   <video style="width: 100%; height: auto;" controls>
     <source src="raw_sensor_signal.mp4" type="video/mp4">
@@ -44,6 +44,8 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
   </video>
 </div> 
 <br>
+
+### Alternate Geometries ###
 
 ### Manufacturing Process ###
 Both the rigid epoxy shell and silicone elastomer are produced in-house. The process takes ~2 days, including curing time. 
