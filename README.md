@@ -39,7 +39,7 @@ When an object is pressed into the soft elastomer, the light ray is reflected in
 ### Rainbow LED Circuitry ###
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 40%; margin-right: 20px;">
-    <img src="tthumbnails/led_circuitry_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
+    <img src="thumbnails/led_circuitry_webpage.png" alt="Alt Text" style="width:100%; height:auto;">
   </div>
   <div style="width: 60%;">
     We are able to imitate the rainbow-like gradients seen in past Lambertian GelSights due to the Rainbow illumination strategy.
